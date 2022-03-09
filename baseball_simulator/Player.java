@@ -85,11 +85,7 @@ public class Player {
   }
 
   public boolean isFast() {
-    if (speedScore > 5) {
-      return true;
-    } else {
-      return false;
-    }
+    return speedScore > 5;
   }
 
   public void clearGameStats() {
